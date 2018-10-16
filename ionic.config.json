@@ -1,0 +1,7 @@
+{
+  "name": "doceria",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
