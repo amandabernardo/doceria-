@@ -3,10 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 
+
 import { AboutPage } from '../pages/about/about';
-import { ContactPage } from '../pages/contact/contact';
+import { ContatoPage } from '../pages/contato/contato';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
+import { MensagemPage } from '../pages/mensagem/mensagem';
+
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -15,9 +18,10 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   declarations: [
     MyApp,
     AboutPage,
-    ContactPage,
+    ContatoPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    MensagemPage
   ],
   imports: [
     BrowserModule,
@@ -27,9 +31,10 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   entryComponents: [
     MyApp,
     AboutPage,
-    ContactPage,
+    ContatoPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    MensagemPage
   ],
   providers: [
     StatusBar,
